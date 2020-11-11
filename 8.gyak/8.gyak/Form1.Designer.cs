@@ -38,24 +38,26 @@
             // 
             this.mainPanel.Location = new System.Drawing.Point(8, 16);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(791, 432);
+            this.mainPanel.Size = new System.Drawing.Size(1174, 456);
             this.mainPanel.TabIndex = 0;
             // 
             // createTimer
             // 
             this.createTimer.Enabled = true;
             this.createTimer.Interval = 3000;
+            this.createTimer.Tag = "1";
             // 
             // conveyorTimer
             // 
             this.conveyorTimer.Enabled = true;
             this.conveyorTimer.Interval = 10;
+            this.conveyorTimer.Tag = "1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1185, 484);
             this.Controls.Add(this.mainPanel);
             this.Name = "Form1";
             this.Text = "Form1";
